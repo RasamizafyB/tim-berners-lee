@@ -1,0 +1,134 @@
+body{
+    margin: 0% 35% 0% 35%;
+    background-color: rgb(218, 218, 218);
+}
+
+p{
+    font-size: larger;
+    color: rgb(109, 109, 109);
+    text-align: justify;
+}
+/*description tim*/
+
+header{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Tim img{
+    width: 200px;
+    height: 200px;
+    margin: 0% 31% 5% 31;
+    border: 7px solid gray;
+    border-radius: 50%;
+}
+
+
+h1{
+    font-size: xx-large;
+    color: red;
+    margin: 5% 0% 3% 0%;
+
+}
+
+h2{
+    font-size: x-large;
+    color: rgb(109, 109, 109);
+    margin-bottom: 3%;
+}
+
+.see{
+    margin: 5% 37% 0% 37%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10%;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/*contact*/
+
+main{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+ 
+}
+
+.contact{
+    margin: 5% 25% 5% 25%;
+
+}
+
+li{
+    float: left;
+    list-style: none;
+    
+}
+
+
+/*films*/
+
+footer{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 0.2fr 2fr 2fr 2fr;
+    grid-template-areas: 
+            "films films"
+            "space abstract-2001"
+            "Jacques abstract-Jacques"
+            "Alien abstract-Alien";
+    grid-gap: 2%;
+}
+
+
+
+
+.Films{
+    grid-area: films;
+    text-align: center;
+}
+
+.space{
+    grid-area: space;
+    
+}
+
+
+.abstract-2001{
+    grid-area: abstract-2001;
+}
+
+.Jacques{
+    grid-area: Jacques;
+}
+
+.abstract-Jacques{
+    grid-area: abstract-Jacques;
+}
+
+.alien{
+    grid-area: Alien;
+}
+
+.abstract-alien{
+    grid-area: abstract-Alien;
+}
